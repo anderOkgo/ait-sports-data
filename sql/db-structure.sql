@@ -7,12 +7,16 @@ SET FOREIGN_KEY_CHECKS = 0;
 
 USE animecre_finan;
 
-DROP TABLE IF EXISTS `money_sources`;
-DROP TABLE IF EXISTS `moviments`;
-DROP TABLE IF EXISTS `constants`;
-DROP TABLE IF EXISTS `variables`;
-DROP TABLE IF EXISTS `currencies`;
-DROP TABLE IF EXISTS `type_sources`;
+DROP TABLE IF EXISTS `matches`;
+CREATE TABLE `matches` (
+  `id` int(11) NOT NULL,
+  `match_date` date DEFAULT NULL,
+  `home_team` text DEFAULT NULL,
+  `away_team` text DEFAULT NULL,
+  `score_home` int(11) DEFAULT NULL,
+  `score_away` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
 
 -- ----------------------------------------------views---
 
