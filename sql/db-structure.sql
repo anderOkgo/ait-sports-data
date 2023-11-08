@@ -1,11 +1,11 @@
 -- ----------------------------------------------database-
 
-CREATE DATABASE IF NOT EXISTS animecre_ait-sports;
+CREATE DATABASE IF NOT EXISTS animecre_ait_sports;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------------------------tables---
 
-USE animecre_ait-sports;
+USE animecre_ait_sports;
 
 DROP TABLE IF EXISTS `matches`;
 CREATE TABLE `matches` (
