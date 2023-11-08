@@ -3,7 +3,7 @@
 CREATE DATABASE IF NOT EXISTS animecre_ait_sports;
 SET FOREIGN_KEY_CHECKS = 0;
 
--- ----------------------------------------------tabless---
+-- ----------------------------------------------tables8---
 
 USE animecre_ait_sports;
 
