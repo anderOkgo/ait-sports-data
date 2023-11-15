@@ -21,12 +21,12 @@ CREATE TABLE `matches` (
 
 DROP VIEW IF EXISTS view_goal_difference;
 CREATE VIEW view_goal_difference AS
-SELECT 
+SELECT
   id,
   match_date,
   home_team,
-  away_team, 
-  score_home, 
+  away_team,
+  score_home,
   score_away,
   ABS(score_home - score_away) AS "goal_difference"
 FROM matches;
