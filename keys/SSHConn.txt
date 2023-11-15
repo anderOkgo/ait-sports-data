@@ -1,1 +1,1 @@
-ssh {-}p 2255 animecre{@}animecream.com
+G:/Mi unidad/Documents/Variant/Notes/Dev/Codes/Commands/FTPSync/ait-sports-data/keys/SSHConn.txt
