@@ -1,1 +1,1 @@
-localhost
+C:/Projects/Var/ait-sports-data/keys/MysqlHostLocal.txt

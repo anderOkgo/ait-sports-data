@@ -17,11 +17,19 @@ CREATE TABLE `matches` (
   `score_away` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
-
 -- ----------------------------------------------views---
 
-DROP VIEW IF EXISTS view_moviments; -- ----------
-
+DROP VIEW IF EXISTS view_goal_difference;
+CREATE VIEW view_goal_difference AS
+SELECT 
+  id,
+  match_date,
+  home_team,
+  away_team, 
+  score_home, 
+  score_away,
+  ABS(score_home - score_away) AS "goal_difference"
+FROM matches;
 
 -- --------------------------------------------------- Procedures
 DROP PROCEDURE IF EXISTS `proc_insert_moviment`;

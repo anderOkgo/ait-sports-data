@@ -1,1 +1,1 @@
-ftp.animecream.com
+C:/Projects/Var/ait-sports-data/keys/FTPserver.txt

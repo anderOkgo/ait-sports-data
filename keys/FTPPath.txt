@@ -1,1 +1,1 @@
-/home/animecre/finan_data
+C:/Projects/Var/ait-sports-data/keys/FTPPath.txt
