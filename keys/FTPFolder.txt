@@ -1,1 +1,1 @@
-sql
+C:/Projects/Var/ait-sports-data/keys/FTPFolder.txt

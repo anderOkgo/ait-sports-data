@@ -1,1 +1,1 @@
-G:\Mi unidad\Documents\Variant\Notes\Dev\Codes\Commands\FTPSync\finan-data\sql
+C:/Projects/Var/ait-sports-data/keys/SqlFolder.txt
